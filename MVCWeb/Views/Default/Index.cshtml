@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="Default/Create" method="post">
+    Name: @Html.TextBox("name")
+    Address: @Html.TextBox("address")
+    Mobile: @Html.TextBox("mobile")
+    <input type="submit" value="Submit" />
+</form>
+
